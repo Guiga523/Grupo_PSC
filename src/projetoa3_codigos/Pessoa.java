@@ -1,8 +1,14 @@
-package projetoa3_codigos;
+package projetoa3_codigos.src.projetoa3_codigos;
 public class Pessoa {
-    private String nome;
-    private String RA;
-    
+    protected String nome;
+    protected String RA;
+    public static Boolean login(String email){
+        Boolean arroba = email.contains("@");
+        Boolean ponto = email.contains(".");
+        Boolean tamanho = email.length()>10;
+        return arroba && ponto && tamanho;
+    }
+
     public void setRA(){
         this.RA = RA;
     }
@@ -25,5 +31,7 @@ public class Pessoa {
     public String getAluno(){
         return this.getAluno();
     }
+
+
 
 }
