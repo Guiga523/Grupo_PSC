@@ -24,4 +24,9 @@ hs_err_pid*
 replay_pid*
 
 nbproject/*
-
+build/*
+build*
+.idea/*
+manifest.mf
+projetoa3_codigos.iml
+base.db
